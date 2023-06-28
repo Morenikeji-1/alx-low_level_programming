@@ -6,14 +6,15 @@
 
 int main(void)
 {
-	int zero = 0;
+	int k = '0';
 
-	while (zero <= 9)
+	while (k <= '9')
 	{
-		putchar(zero);
-		zero++;
+		putchar(k);
+		k++;
 	}
 	putchar('\n');
+
 	return (0);
 }
 
