@@ -1,21 +1,17 @@
 #include "main.h"
-
 /**
- * main - A program that prints alphabet in lowercase
+ * print_alphabet - prints alphabet
  *
- * Return: 0 (Success)
  */
-
-int main(void)
+void print_alphabet(void);
 {
-	int i = 'a';
+	char al;
 
-	while (i <= 'z')
+	al = 'a';
+	while (al <= 'z')
 	{
-		_putchar('i');
-		i++;
+		_putchar(al);
+		al++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
