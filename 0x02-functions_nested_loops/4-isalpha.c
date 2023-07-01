@@ -8,15 +8,18 @@
 
 int _isalpha(int c)
 {
-	char k;
-	char C;
+	char lower, upper;
+	int letter = 0;
 
-	for (k = 'a'; k <= 'z'; k++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		if (k == c || k == C)
+		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			return (1);
+			if (lower == c || upper == c)
+			{
+				letter = 1;
+			}
 		}
 	}
-	return (0);
+	return (letter);
 }
