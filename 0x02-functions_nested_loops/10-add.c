@@ -10,9 +10,9 @@ int add(int i, int j)
 {
 	int k;
 
-	i = 26;
-	j = 10;
-	k = 26 + 10;
+	i = 89;
+	j = 9;
+	k = 89 + 9;
 
 	if (i + j)
 	{
