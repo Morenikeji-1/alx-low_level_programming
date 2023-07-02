@@ -10,14 +10,8 @@ int add(int i, int j)
 {
 	int k;
 
-	i = 89;
-	j = 9;
-	k = 89 + 9;
+	k = i + j;
 
-	if (i + j)
-	{
 	return (k);
-	}
-	return (0);
 }
 
